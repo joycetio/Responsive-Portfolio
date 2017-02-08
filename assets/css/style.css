@@ -246,85 +246,6 @@ input[type=submit] {
 }
 
 /*Media Queries */
-@media screen and (max-width: 640px) {
-  body { 
-    position: static;
-   }
-
-   #logo {
-    width: 100%;
-   }
-
-  nav {
-    position: static;
-    width: 640px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-
-  .main-section {
-    position: static;
-    width: 550px;
-    margin: 35px;
-    margin-bottom: 0px;
-  }
-
-  .auth-image {
-    position: static;
-    width: 100%;
-  }
-
-  .sidebar {
-    position: static;
-    float: left;
-    width: 550px;
-    margin: 35px;
-  }
-
-  .work {
-    width: 100%;
-  }
-  
-}
-
-@media screen and (max-width: 768px) {
-  body { position: static; }
-
-  #logo {
-    position: static;
-    width: 256px;
-  }
-
-  nav {
-    margin-right: 20px;
-    margin-bottom: 20px;
-  }
-
-  .main-section {
-    position: static;
-    width: 685px;
-    margin-right: 35px;
-    margin-left: 35px;
-  }
-
-  .sidebar {
-    position: static;
-    width: 685px;
-    float: left;
-    margin-top: 5px;
-    margin-left: 35px;
-    margin-right: 35px;
-    margin-bottom: 35px;
-  }
-
-  .auth-image {
-    position: static;
-    width: 50%;
-  }
-
-}
-
 @media screen and (max-width: 980px) {
   body {
     position: static;
@@ -361,7 +282,112 @@ input[type=submit] {
   .work {
     width: 100%;
   }
+
+  .work:nth-child(even) {
+    float: left;
+  }
+
 }
+
+@media screen and (max-width: 768px) {
+
+  #logo {
+    position: static;
+    width: 256px;
+  }
+
+  nav {
+   /* margin-right: 20px;
+    margin-bottom: 20px;*/
+    width: 420px;
+  }
+
+  .main-section {
+    position: static;
+    width: 685px;
+    margin-right: 35px;
+    margin-left: 35px;
+  }
+
+  .sidebar {
+    position: static;
+    width: 685px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+  }
+
+  .auth-image {
+    position: static;
+    width: 50%;
+  }
+
+  .work {
+    width: 290px;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+  body { 
+    position: static;
+   }
+
+   .container {
+    position: static;
+    width: 640px;
+    margin: 0;
+   }
+
+   #logo {
+    position: static;
+    width: 640px;
+    margin: 0;
+  }
+
+  nav {
+    position: static;
+    width: 640px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    padding-left: 155px;
+    text-align: center;
+  }
+
+  nav a {
+    padding: 0px 40px;
+  }
+
+  .main-section {
+    position: static;
+    width: 550px;
+    margin: 35px;
+    margin-bottom: 0px;
+  }
+
+  .auth-image {
+    position: static;
+    width: 100%;
+  }
+
+  .sidebar {
+    position: static;
+    float: left;
+    width: 550px;
+    margin: 35px;
+  }
+
+  .work {
+    width: 100%;
+  }
+  
+}
+
+
+
+
 
 
   
