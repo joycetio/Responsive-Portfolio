@@ -155,7 +155,7 @@ h3,
   padding: 30px;
   margin: 0 0 40px 0;
   width: 100%;
-  max-width: 650px;
+/*  max-width: 650px;*/
   float: left;
   background: #fff;
   border: 1px solid #ddd;
@@ -248,7 +248,7 @@ input[type=submit] {
 /*Media Queries */
 @media screen and (max-width: 640px) {
   body { 
-    position: relative;
+    position: static;
    }
 
    #logo {
@@ -286,6 +286,81 @@ input[type=submit] {
     width: 100%;
   }
   
+}
+
+@media screen and (max-width: 768px) {
+  body { position: static; }
+
+  #logo {
+    position: static;
+    width: 256px;
+  }
+
+  nav {
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .main-section {
+    position: static;
+    width: 685px;
+    margin-right: 35px;
+    margin-left: 35px;
+  }
+
+  .sidebar {
+    position: static;
+    width: 685px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+  }
+
+  .auth-image {
+    position: static;
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 980px) {
+  body {
+    position: static;
+  }
+
+  #masthead {
+    width: 980px;
+  }
+
+  #logo {
+    width: 250px;
+    margin-left: 50px;
+  }
+
+  nav {
+    margin-right: 100px;
+  }
+
+  .main-section {
+    width: 390px;
+    margin-left: 130px;
+  }
+
+  .sidebar {
+    float: left;
+    width: 270px;
+    margin-left: 35px;
+  }
+
+  .auth-image {
+    width: 100%;
+  }
+
+  .work {
+    width: 100%;
+  }
 }
 
 
