@@ -287,6 +287,10 @@ input[type=submit] {
     float: left;
   }
 
+  footer {
+    width: 980px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -326,6 +330,10 @@ input[type=submit] {
 
   .work {
     width: 290px;
+  }
+
+  footer {
+    width: 768px;
   }
 
 }
@@ -381,6 +389,10 @@ input[type=submit] {
 
   .work {
     width: 100%;
+  }
+
+  footer {
+    width: 640px;
   }
   
 }
